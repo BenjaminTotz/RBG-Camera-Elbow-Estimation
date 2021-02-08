@@ -1,0 +1,31 @@
+Installation guide
+
+1) Download an IDE (Integrated Development Environment) to run the code. This guide will use, and assume that Visual Studio Code is used on a Windows OS
+    a. Download for VS Code: https://code.visualstudio.com/download 
+    b. Navigate the VS Code menu to the extensions menu and download the following:
+        i. Python extension by Microsoft
+        ii. OpenCV-intellisense by did1335
+
+2) Download Python 3.6 or greater: https://www.python.org/downloads/ 
+    a. When installing choose to add to Path Variables
+
+3) Download Git: https://git-scm.com/download/win 
+    a. Open VS Code
+    b. Press Ctrl+Shift+P and type Git: Clone
+    c. Enter this URL: https://github.com/BenjaminTotz/RBG-Camera-Elbow-Estimation
+    d. Save the cloned repository to a desired location on your device
+    e. Close VS Code
+
+4) Download Anaconda: https://www.anaconda.com/products/individual
+
+5) Open a Conda prompt and do the following:
+    a. $ pip install opencv-python
+    b. $ pip install xlwt
+    c. $ conda create -n tf tensorflow
+    d. $ conda activate tf
+    e. $ pip install -e git+https://github.com/google-research/tf-slim.git#egg=tf-slim
+    f. $ pip install -e git+https://github.com/gsethi2409/tf-pose-estimation.git#egg=tf-pose-estimation
+    g. Note: steps e and f may be unnecessary due to the files being apart of the cloned repository
+
+6) Restart your device and make sure everything is up to date 
+
